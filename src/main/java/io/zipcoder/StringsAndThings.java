@@ -20,9 +20,9 @@ public class StringsAndThings {
         int yzCount = 0;
         String[] words = input.split(" ");
         for (int x = 0; x < words.length; x++) {
-            char v = words[x].charAt(words[x].length()-1);
-            v =  Character.toLowerCase(v);
-            if (v == 'y' || v == 'z') {
+            char Y = words[x].charAt(words[x].length()-1);
+            Y =  Character.toLowerCase(Y);
+            if (Y == 'y' || Y == 'z') {
                 yzCount++;
             }
         }
@@ -42,8 +42,8 @@ public class StringsAndThings {
 //        String x = base;
 //        x = x.replace(remove, "");
 //        return x;
-        base = base.replace(remove, "");
-        return base;
+//        base = base.replace(remove, "");
+        return base.replace(remove, "");
     }
 
     /**
